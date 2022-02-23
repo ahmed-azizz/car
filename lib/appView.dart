@@ -1,5 +1,4 @@
 import 'package:car/screens/Audi.dart';
-
 import 'package:car/screens/bmw/BMW.dart';
 import 'package:car/screens/bmw/bmw_760i.dart';
 import 'package:car/screens/bmw/bmw_i4.dart';
@@ -17,6 +16,7 @@ import 'package:car/screens/nissan.dart';
 import 'package:car/screens/toyota.dart';
 import 'package:car/screens/volkswagen.dart';
 import 'package:flutter/material.dart';
+import 'package:car/screens/Audi.dart';
 
 class AppView extends StatelessWidget {
   const AppView({Key? key}) : super(key: key);
@@ -29,7 +29,7 @@ class AppView extends StatelessWidget {
         '/': (context) => introduction(),
         '/first': (context) => first_screen_view(),
         '/bmw': (context) => bmw_view(),
-        '/audi': (context) => audi_View(),
+        '/audi': (context) => audi_view(),
         '/chevrolet': (context) => chevrolet_view(),
         '/dodge': (context) => dodge_view(),
         '/ford': (context) => ford_view(),

@@ -8,7 +8,7 @@ class audi_view extends StatelessWidget {
     List cars = [
       InkWell(
         onTap: () {
-          Navigator.pushNamed(context, '/bmwm5');
+          Navigator.pushNamed(context, '/audiA4');
         },
         child: Container(
           height: 50,
@@ -17,13 +17,13 @@ class audi_view extends StatelessWidget {
             border: Border.all(width: 1, color: Colors.black),
             image: DecorationImage(
               image: Image.network(
-                'https://www.ccarprice.com/products/BMW_M5_Competition_2021.jpg',
+                'https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/80178b9c-1236-481d-bfa9-bb525a39d8d6/f265c9f6-82dc-422c-8ceb-5316d355e3ab.png',
                 fit: BoxFit.cover,
               ).image,
             ),
           ),
           child: const Text(
-            'BMW M5',
+            'AUDI A4',
             style: TextStyle(
               color: Colors.red,
               fontSize: 25,
@@ -34,7 +34,7 @@ class audi_view extends StatelessWidget {
       ),
       InkWell(
         onTap: () {
-          Navigator.pushNamed(context, '/bmw760i');
+          Navigator.pushNamed(context, '/audiQ3');
         },
         child: Container(
           height: 50,
@@ -43,13 +43,13 @@ class audi_view extends StatelessWidget {
             border: Border.all(width: 1, color: Colors.black),
             image: DecorationImage(
               image: Image.network(
-                'https://images.carprices.com/pricebooks_data/usa/colorized/2021/BMW/View2/7_Series/M760i_xDrive/217M_300.png',
+                'https://stimg.cardekho.com/images/carexteriorimages/930x620/Audi/Audi-Q3-2015-2017/4129/front-left-side-47.jpg?tr=w-375',
                 fit: BoxFit.cover,
               ).image,
             ),
           ),
           child: const Text(
-            'BMW 760i',
+            'AUDI Q3',
             style: TextStyle(
               color: Colors.red,
               fontSize: 25,
@@ -60,7 +60,7 @@ class audi_view extends StatelessWidget {
       ),
       InkWell(
         onTap: () {
-          Navigator.pushNamed(context, '/bmwx7');
+          Navigator.pushNamed(context, '/audiRS');
         },
         child: Container(
           height: 50,
@@ -69,65 +69,13 @@ class audi_view extends StatelessWidget {
             border: Border.all(width: 1, color: Colors.black),
             image: DecorationImage(
               image: Image.network(
-                'https://imgd.aeplcdn.com/1056x594/n/ajl08sa_1467914.jpg?q=75&wm=1',
+                'https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIhBPNonK7EsUS8zXy84tSgzMSezKjEpJ9V63QXONcHX33oyMTBUFDAwMDAC1TJFO635LP6DjSPkAVSYyZuBpTw1qYARqMKNiSszNzE9VR8kwM_InWimm1pRopuXmpvPDpQW5vm0iiX68NkdV4rPlz9RnCLb3JbyaAEDT9yR2_t-P2lcFLn7vGLynGi7Q64eUQw8KQ6XG7YeVS0XvblvusSi2jtmDTUbGXictE4wC7ZZWT1i5RH-sUQ3yHfheQEGHnbhavaTLH6eQZu3rMmXvRsUpfApg4GHf7LdtPIp0S47jT1ufnnQwtF02mMxA4_cKbaJbZ39mxSfSuctVzJ5rJWWEs7AI79FwJL1y_w_HzQdVXovVSzSNp3ZyMAzRyn2vXDmzAzHbe7NewP3i1ppi31m4OH789jr_KS2d2v_sphVb9rAllxcfYSBxyL_wkahvn2ZVgHR6sIaHO6Jx-vsgCZcZtpvKXx4huVSUfmENQFfOGulHBl49lYo_maJsxC4-eTE5c6_J2XTr1sIMvD8kHpzwb1SdbreOsmqis1PbbY83mXDwHPG8HeVdr3jgp78A9EMsk2yb6q2qjLwzP2ksWi-3qElyVMPbjzv9jNHxL3ZmIHnjd2K9YFJEm6ev5KT9E6ze0nOdKtl4BHefytTvJJpkU23QugckacXn4iLvGbg-SI1q8pUNKLReek650UfyuVPxE-9zMAKjEbGzUCC-R2Q4OUBEhybGMAkKIL5QNK-ID7rd2YGBm4HBga2EAYQ4BMuLcopSCxKzNUrSi0uyM8rzixLFdQwIBIIs_o4RroGAQDN0JEPkgIAAA?mimetype=image/png',
                 fit: BoxFit.cover,
               ).image,
             ),
           ),
           child: const Text(
-            'BMW X7',
-            style: TextStyle(
-              color: Colors.red,
-              fontSize: 25,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-        ),
-      ),
-      InkWell(
-        onTap: () {
-          Navigator.pushNamed(context, '/bmwz4');
-        },
-        child: Container(
-          height: 50,
-          width: 50,
-          decoration: BoxDecoration(
-            border: Border.all(width: 1, color: Colors.black),
-            image: DecorationImage(
-              image: Image.network(
-                'https://www.bmw-me.com/content/dam/bmw/common/all-models/z-series/roadster/2018/inform/bmw-zseries-z4-inform-lines-02-desktop-tablet-02.jpg',
-                fit: BoxFit.cover,
-              ).image,
-            ),
-          ),
-          child: const Text(
-            'BMW Z4',
-            style: TextStyle(
-              color: Colors.red,
-              fontSize: 25,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-        ),
-      ),
-      InkWell(
-        onTap: () {
-          Navigator.pushNamed(context, '/bmwi4');
-        },
-        child: Container(
-          height: 50,
-          width: 50,
-          decoration: BoxDecoration(
-            border: Border.all(width: 1, color: Colors.black),
-            image: DecorationImage(
-              image: Image.network(
-                'https://cache.bmwusa.com/cosy.arox?pov=walkaround&brand=WBBM&vehicle=22DB&client=byo&paint=P0300&fabric=FKHSW&sa=S01CB,S02NH,S02VF,S0302,S0319,S0322,S03AG,S03DZ,S03FT,S0403,S0430,S0431,S0459,S0493,S04AW,S04LN,S0508,S0534,S0544,S05AC,S05AS,S0676,S06AC,S06AK,S06C4,S06U2,S06WC,S0715,S0760,S0775&date=20211102&bkgnd=1&quality=70&resp=jpeg&angle=30',
-                fit: BoxFit.cover,
-              ).image,
-            ),
-          ),
-          child: const Text(
-            'BMW I4',
+            'AUDI RS6',
             style: TextStyle(
               color: Colors.red,
               fontSize: 25,

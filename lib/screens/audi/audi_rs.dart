@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class audi_q3_view extends StatelessWidget {
-  const audi_q3_view({Key? key}) : super(key: key);
+class audi_rs_view extends StatelessWidget {
+  const audi_rs_view({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class audi_q3_view extends StatelessWidget {
           backgroundColor: Colors.blue[300],
           centerTitle: true,
           title: Text(
-            'AUDI Q3',
+            'AUDI RS6',
             style: TextStyle(
                 color: Colors.red[700],
                 fontSize: 30,
@@ -34,28 +34,28 @@ class audi_q3_view extends StatelessWidget {
                     width: 20,
                   ),
                   Image.network(
-                    'https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/audi-q3-2020-index3.png',
+                    'https://previews.123rf.com/images/medvedsky/medvedsky2003/medvedsky200300071/144541901-almaty-kazakhstan-march-28-2020-audi-rs6-avant-luxury-stylish-car-isolated-on-white-background-3d-re.jpg',
                     width: 370,
                   ),
                   SizedBox(
                     width: 20,
                   ),
                   Image.network(
-                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZnAUqEWuHZqM8MUJVB-Ax-wVXjV5YxbwblgWQascy7vPJqf-xtL70sqOZnPJ88cW6zMs&usqp=CAU',
+                    'https://motorillustrated.com/wp-content/uploads/2020/07/2021-Audi-RS-6-Avant-Colors-7.jpg',
                     width: 370,
                   ),
                   SizedBox(
                     width: 20,
                   ),
                   Image.network(
-                    'https://cars.usnews.com/static/images/Auto/izmo/i2446309/2017_audi_q3_angularrear.jpg',
+                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZulhLpzVAY5oCI0gv75Dr5DlCQ3bmSOv-fkth2n8BH59zyQZ5Y6FwV_nItYRP1yZuSco&usqp=CAU',
                     width: 370,
                   ),
                   SizedBox(
                     width: 20,
                   ),
                   Image.network(
-                    'https://images.dealer.com/evox/stills_0640/MY2022/15292/15292_st0640_059.jpg',
+                    'https://preview.free3d.com/img/2020/06/2408254215009862744/hzb3utjy-900.jpg',
                     width: 370,
                   ),
                 ],
@@ -79,7 +79,7 @@ class audi_q3_view extends StatelessWidget {
                           width: 30,
                         ),
                         Text(
-                          'AUDI Q3',
+                          'AUDI RS6',
                           style: TextStyle(
                               color: Colors.red[700],
                               fontSize: 30,
@@ -94,7 +94,7 @@ class audi_q3_view extends StatelessWidget {
                           width: 27,
                         ),
                         Text(
-                          ' \$34,900',
+                          ' \$116,500',
                           style: TextStyle(
                               fontSize: 20, fontWeight: FontWeight.bold),
                         )
@@ -109,7 +109,7 @@ class audi_q3_view extends StatelessWidget {
                         maxWidth: 300,
                       ),
                       child: Text(
-                        'The Audi Q3 has been around in its present form since 2018, and while it didn’t move the game on much in styling terms from its predecessor, it did get a worthwhile tech upgrade including the adoption of Audi Virtual Cockpit, which is the firm’s impressive digital instrument display.Luckily there isn’t much wrong with the way most Audis look, and the Q3 has a lot more to offer beyond its typically premium style. It’s got a decent range of engines that are powerful and efficient, including the new 45 TFSI e hybrid option, and has a usefully practical cabin that’s also luxurious.That sense of luxury is well heralded by the big Audi grille which gives the Q3 a strong presence on the road. In spite of its high-riding SUV stance there’s not much focus on off-road ability, but taking the Q3 anywhere off tarmac will be far from most owners’ minds. The Q3’s excellent road manners will be appreciated though, and while the BMW X1 offers a bit more driving involvement, Audi’s customers like the way their cars handle just fine. A less-than-slick manual gear change is a small fly in the ointment, but it’s unlikely to be a deal-breaker, especially as many will choose the S tronic auto option. Otherwise it’s quite tough to pick holes in the Q3’s approach.',
+                        'The high-performance station wagon is an endangered species, and the Audi RS6 Avant is one of the most intriguing specimens around. After being introduced last year as an all-new model, the RS6 Avant has quickly skyrocketed to the top ten list of dream cars for motor journalists across the globe. Powered by a twin-turbocharged 4.0-liter V8 engine producing 591 horsepower and 590 lb-ft of torque, this family-friendly wagon can force its hefty body from 0-60 mph in only 3.5 seconds, all while cradling its occupants in premium luxury. It is not alone in the segment with both the Mercedes-AMG E63 Wagon and the Porsche Panamera Turbo Sport Turismo providing alternate wagon-shaped thrills for the whole family. But with Audi long history of super-wagons on its side and Darth Vader styling, it could be the most alluring of the lot.',
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     )

@@ -1,4 +1,7 @@
 import 'package:car/screens/Audi.dart';
+import 'package:car/screens/audi/audi_a4.dart';
+import 'package:car/screens/audi/audi_q3.dart';
+import 'package:car/screens/audi/audi_rs.dart';
 import 'package:car/screens/bmw/BMW.dart';
 import 'package:car/screens/bmw/bmw_760i.dart';
 import 'package:car/screens/bmw/bmw_i4.dart';
@@ -43,6 +46,10 @@ class AppView extends StatelessWidget {
         '/bmwx7': (context) => bmw_x7_view(),
         '/bmwz4': (context) => bmw_z4_view(),
         '/bmwi4': (context) => bmw_i4_view(),
+        '/audiRS': (context) => audi_rs_view(),
+        '/audiQ3': (context) => audi_q3_view(),
+        '/audiA4': (context) => audi_a4_view(),
+
       },
     );
   }

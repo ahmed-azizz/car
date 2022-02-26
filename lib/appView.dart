@@ -9,6 +9,9 @@ import 'package:car/screens/bmw/bmw_m5.dart';
 import 'package:car/screens/bmw/bmw_x7.dart';
 import 'package:car/screens/bmw/bmw_z4.dart';
 import 'package:car/screens/chevrolet.dart';
+import 'package:car/screens/chevrolet/chevrolet_camaro.dart';
+import 'package:car/screens/chevrolet/chevrolet_corvette.dart';
+import 'package:car/screens/chevrolet/chevrolet_malibu.dart';
 import 'package:car/screens/dodge.dart';
 import 'package:car/screens/first_screen.dart';
 import 'package:car/screens/ford.dart';
@@ -49,6 +52,9 @@ class AppView extends StatelessWidget {
         '/audiRS': (context) => audi_rs_view(),
         '/audiQ3': (context) => audi_q3_view(),
         '/audiA4': (context) => audi_a4_view(),
+        '/chevroletM': (context) => chevrolet_malibu_view(),
+        '/chevroletCA': (context) => chevrolet_camaro_view(),
+        '/chevroletCO': (context) => chevrolet_corvette_view(),
 
       },
     );

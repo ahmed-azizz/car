@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class dodge_view extends StatelessWidget {
-  dodge_view({Key? key}) : super(key: key);
+class ford_view extends StatelessWidget {
+  ford_view({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     List cars = [
       InkWell(
         onTap: () {
-          Navigator.pushNamed(context, '/dodgeCHALLENGER');
+          Navigator.pushNamed(context, '/fordM');
         },
         child: Container(
           height: 50,
@@ -17,13 +17,13 @@ class dodge_view extends StatelessWidget {
             border: Border.all(width: 1, color: Colors.black),
             image: DecorationImage(
               image: Image.network(
-                'https://di-uploads-pod12.dealerinspire.com/jerryulmcdjr/uploads/2020/06/2020-Dodge-Challenger-MLP-Hero.png',
+                'https://imgd.aeplcdn.com/664x374/cw/ec/23766/Ford-Mustang-Exterior-126883.jpg?wm=0&q=75',
                 fit: BoxFit.cover,
               ).image,
             ),
           ),
           child: const Text(
-            'CHALLENGER',
+            'MUSTANG',
             style: TextStyle(
               color: Colors.red,
               fontSize: 25,
@@ -34,7 +34,7 @@ class dodge_view extends StatelessWidget {
       ),
       InkWell(
         onTap: () {
-          Navigator.pushNamed(context, '/dodgeCHARGER');
+          Navigator.pushNamed(context, '/fordF');
         },
         child: Container(
           height: 50,
@@ -43,13 +43,13 @@ class dodge_view extends StatelessWidget {
             border: Border.all(width: 1, color: Colors.black),
             image: DecorationImage(
               image: Image.network(
-                'https://www.ccarprice.com/products/Dodge-Charger-SRT-Hellcat-2019.png',
+                'https://www.motorbiscuit.com/wp-content/uploads/2019/11/2019-Ford-F-150-SuperCrew-Lariat.jpg',
                 fit: BoxFit.cover,
               ).image,
             ),
           ),
           child: const Text(
-            'CHARGER',
+            'F 150',
             style: TextStyle(
               color: Colors.red,
               fontSize: 25,
@@ -60,7 +60,7 @@ class dodge_view extends StatelessWidget {
       ),
       InkWell(
         onTap: () {
-          Navigator.pushNamed(context, '/dodgeDURANGO');
+          Navigator.pushNamed(context, '/fordE');
         },
         child: Container(
           height: 50,
@@ -69,13 +69,13 @@ class dodge_view extends StatelessWidget {
             border: Border.all(width: 1, color: Colors.black),
             image: DecorationImage(
               image: Image.network(
-                'https://www.ccarprice.com/products/Dodge_Durango_SRT_Hellcat_2022.jpg',
+                'https://images.jazelc.com/uploads/galpinford/2020-Ford-Explorer-b.png',
                 fit: BoxFit.cover,
               ).image,
             ),
           ),
           child: const Text(
-            'DURANGO',
+            'EXPLORER',
             style: TextStyle(
               color: Colors.red,
               fontSize: 25,
@@ -96,7 +96,7 @@ class dodge_view extends StatelessWidget {
           backgroundColor: Colors.blue[300],
           centerTitle: true,
           title: Text(
-            'DODGE',
+            'FORD',
             style: TextStyle(
                 color: Colors.red[700],
                 fontSize: 30,

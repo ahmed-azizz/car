@@ -15,7 +15,10 @@ import 'package:car/screens/chevrolet/chevrolet_malibu.dart';
 import 'package:car/screens/dodge/dodge.dart';
 import 'package:car/screens/dodge/dodge_challenger.dart';
 import 'package:car/screens/first_screen.dart';
-import 'package:car/screens/ford.dart';
+import 'package:car/screens/ford/ford.dart';
+import 'package:car/screens/ford/ford_explorer.dart';
+import 'package:car/screens/ford/ford_f150.dart';
+import 'package:car/screens/ford/ford_mustang.dart';
 import 'package:car/screens/introduction.dart';
 import 'package:car/screens/kia.dart';
 import 'package:car/screens/mercedes/mercedes.dart';
@@ -25,10 +28,10 @@ import 'package:car/screens/mercedes/mercedes_Gclass.dart';
 import 'package:car/screens/mercedes/mercedes_Sclass.dart';
 import 'package:car/screens/nissan.dart';
 import 'package:car/screens/toyota.dart';
+import 'package:car/screens/ford/ford.dart';
 import 'package:car/screens/volkswagen.dart';
 import 'package:flutter/material.dart';
 import 'package:car/screens/audi/Audi.dart';
-
 import 'screens/dodge/dodge_charger.dart';
 import 'screens/dodge/dodge_durango.dart';
 
@@ -70,6 +73,10 @@ class AppView extends StatelessWidget {
         '/dodgeCHALLENGER': (context) => dodge_challenger_view(),
         '/dodgeCHARGER': (context) => dodge_charger_view(),
         '/dodgeDURANGO': (context) => dodge_durango_view(),
+                '/fordM': (context) => ford_mustang_view(),
+        '/fordF': (context) => ford_f150_view(),
+        '/fordE': (context) => ford_explorer_view(),
+
       },
     );
   }

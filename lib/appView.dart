@@ -12,7 +12,8 @@ import 'package:car/screens/chevrolet/chevrolet.dart';
 import 'package:car/screens/chevrolet/chevrolet_camaro.dart';
 import 'package:car/screens/chevrolet/chevrolet_corvette.dart';
 import 'package:car/screens/chevrolet/chevrolet_malibu.dart';
-import 'package:car/screens/dodge.dart';
+import 'package:car/screens/dodge/dodge.dart';
+import 'package:car/screens/dodge/dodge_challenger.dart';
 import 'package:car/screens/first_screen.dart';
 import 'package:car/screens/ford.dart';
 import 'package:car/screens/introduction.dart';
@@ -27,6 +28,9 @@ import 'package:car/screens/toyota.dart';
 import 'package:car/screens/volkswagen.dart';
 import 'package:flutter/material.dart';
 import 'package:car/screens/audi/Audi.dart';
+
+import 'screens/dodge/dodge_charger.dart';
+import 'screens/dodge/dodge_durango.dart';
 
 class AppView extends StatelessWidget {
   const AppView({Key? key}) : super(key: key);
@@ -60,11 +64,12 @@ class AppView extends StatelessWidget {
         '/chevroletCA': (context) => chevrolet_camaro_view(),
         '/chevroletCO': (context) => chevrolet_corvette_view(),
         '/mercedesC': (context) => mercedes_Cclass_view(),
-        '/mercedesS': (context) =>mercedes_Sclass_view(),
-        '/mercedesG': (context) =>mercedes_Gclass_view(),
-        '/mercedesCLS': (context) =>mercedes_CLSclass_view(),
-
-
+        '/mercedesS': (context) => mercedes_Sclass_view(),
+        '/mercedesG': (context) => mercedes_Gclass_view(),
+        '/mercedesCLS': (context) => mercedes_CLSclass_view(),
+        '/dodgeCHALLENGER': (context) => dodge_challenger_view(),
+        '/dodgeCHARGER': (context) => dodge_charger_view(),
+        '/dodgeDURANGO': (context) => dodge_durango_view(),
       },
     );
   }

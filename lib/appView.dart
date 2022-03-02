@@ -21,12 +21,15 @@ import 'package:car/screens/ford/ford_f150.dart';
 import 'package:car/screens/ford/ford_mustang.dart';
 import 'package:car/screens/introduction.dart';
 import 'package:car/screens/Rolls%20royes/rr.dart';
+import 'package:car/screens/lamborghini/lamborghini_aventador.dart';
+import 'package:car/screens/lamborghini/lamborghini_huracan.dart';
+import 'package:car/screens/lamborghini/lamborghini_urus.dart';
 import 'package:car/screens/mercedes/mercedes.dart';
 import 'package:car/screens/mercedes/mercedes_CLSclass.dart';
 import 'package:car/screens/mercedes/mercedes_Cclass.dart';
 import 'package:car/screens/mercedes/mercedes_Gclass.dart';
 import 'package:car/screens/mercedes/mercedes_Sclass.dart';
-import 'package:car/screens/nissan.dart';
+import 'package:car/screens/nissan/nissan.dart';
 import 'package:car/screens/toyota.dart';
 import 'package:car/screens/ford/ford.dart';
 import 'package:car/screens/Rolls%20royes/rr.dart';
@@ -37,6 +40,7 @@ import 'screens/Rolls royes/rr_gohst.dart';
 import 'screens/Rolls royes/rr_phantom.dart';
 import 'screens/dodge/dodge_charger.dart';
 import 'screens/dodge/dodge_durango.dart';
+import 'screens/lamborghini/lamborghini.dart';
 
 class AppView extends StatelessWidget {
   const AppView({Key? key}) : super(key: key);
@@ -50,6 +54,7 @@ class AppView extends StatelessWidget {
         '/first': (context) => first_screen_view(),
         '/bmw': (context) => bmw_view(),
         '/audi': (context) => audi_view(),
+        '/lambo': (context) => lamborghini_view(),
         '/chevrolet': (context) => chevrolet_view(),
         '/dodge': (context) => dodge_view(),
         '/ford': (context) => ford_view(),
@@ -81,6 +86,10 @@ class AppView extends StatelessWidget {
         '/rrC': (context) => rr_cullinan_view(),
         '/rrG': (context) => rr_gohst_view(),
         '/rrP': (context) => rr_phantom_view(),
+
+        '/lamboA': (context) => lamborghini_aventador_view(),
+        '/lamboH': (context) => lamborghini_huracan_view(),
+        '/lamboU': (context) => lamborghini_urus_view(),
 
       },
     );

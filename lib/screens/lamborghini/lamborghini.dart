@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class chevrolet_view extends StatelessWidget {
-  chevrolet_view({Key? key}) : super(key: key);
+class lamborghini_view extends StatelessWidget {
+  lamborghini_view({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     List cars = [
       InkWell(
         onTap: () {
-          Navigator.pushNamed(context, '/chevroletM');
+          Navigator.pushNamed(context, '/lamboA');
         },
         child: Container(
           height: 50,
@@ -16,15 +16,14 @@ class chevrolet_view extends StatelessWidget {
           decoration: BoxDecoration(
             border: Border.all(width: 1, color: Colors.black),
             image: DecorationImage(
-              scale: 1,
               image: Image.network(
-                'https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2022/cars/malibu/01-images/colorizer/2022-malibu-1lt-gaz-colorizer.jpg?imwidth=960',
+                'https://images.dealer.com/ddc/vehicles/2021/Lamborghini/Huracan%20EVO/Convertible/color/Grigio%20Hati-Q0GH-128,133,139-640-en_US.jpg',
                 fit: BoxFit.cover,
               ).image,
             ),
           ),
           child: const Text(
-            'MALIBU',
+            'AVENTADOR',
             style: TextStyle(
               color: Colors.red,
               fontSize: 25,
@@ -35,7 +34,7 @@ class chevrolet_view extends StatelessWidget {
       ),
       InkWell(
         onTap: () {
-          Navigator.pushNamed(context, '/chevroletCA');
+          Navigator.pushNamed(context, '/lamboH');
         },
         child: Container(
           height: 50,
@@ -44,13 +43,13 @@ class chevrolet_view extends StatelessWidget {
             border: Border.all(width: 1, color: Colors.black),
             image: DecorationImage(
               image: Image.network(
-                'https://immagini.alvolante.it/sites/default/files/styles/image_gallery_big/public/serie_auto_galleria/2016/08/chevrolet_camaro_ant.png?itok=S-yG-IpZ',
+                'https://images.dealer.com/ddc/vehicles/2021/Lamborghini/Huracan%20EVO/Convertible/color/Rosso%20Bia%20Special%20Metallic-Q0E1-190,6,44-640-en_US.jpg',
                 fit: BoxFit.cover,
               ).image,
             ),
           ),
           child: const Text(
-            'CAMARO',
+            'HURACAN',
             style: TextStyle(
               color: Colors.red,
               fontSize: 25,
@@ -61,7 +60,7 @@ class chevrolet_view extends StatelessWidget {
       ),
       InkWell(
         onTap: () {
-          Navigator.pushNamed(context, '/chevroletCO');
+          Navigator.pushNamed(context, '/lamboU');
         },
         child: Container(
           height: 50,
@@ -70,13 +69,13 @@ class chevrolet_view extends StatelessWidget {
             border: Border.all(width: 1, color: Colors.black),
             image: DecorationImage(
               image: Image.network(
-                'https://www.chevrolet.com/content/dam/chevrolet/na/us/english/vdc-collections/2022/performance/corvette/01-images/2022-corvette-1yc67-2lt-gph-trimselector.png?imwidth=960',
+                'https://www.vroomrent.ae/img/thumbnails/cars/b133fdf168add2fc8e5cf0ddf46d4c68_1_h800.png',
                 fit: BoxFit.cover,
               ).image,
             ),
           ),
           child: const Text(
-            'CORVETTE',
+            'URUS',
             style: TextStyle(
               color: Colors.red,
               fontSize: 25,
@@ -97,7 +96,7 @@ class chevrolet_view extends StatelessWidget {
           backgroundColor: Colors.blue[300],
           centerTitle: true,
           title: Text(
-            'CHEVROLET',
+            'LAMBORGHINI',
             style: TextStyle(
                 color: Colors.red[700],
                 fontSize: 30,

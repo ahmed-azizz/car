@@ -96,7 +96,7 @@ class rr_view extends StatelessWidget {
           backgroundColor: Colors.blue[300],
           centerTitle: true,
           title: Text(
-            'MERCEDES',
+            'ROLLS ROYCE',
             style: TextStyle(
                 color: Colors.red[700],
                 fontSize: 30,

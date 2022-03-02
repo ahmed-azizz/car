@@ -33,6 +33,11 @@ import 'package:car/screens/mercedes/mercedes_Gclass.dart';
 import 'package:car/screens/mercedes/mercedes_Sclass.dart';
 import 'package:car/screens/ford/ford.dart';
 import 'package:car/screens/Rolls%20royes/rr.dart';
+import 'package:car/screens/toyota/toyota.dart';
+import 'package:car/screens/toyota/toyota_avalon.dart';
+import 'package:car/screens/toyota/toyota_camry.dart';
+import 'package:car/screens/toyota/toyota_landcruiser.dart';
+import 'package:car/screens/toyota/toyota_supra.dart';
 import 'package:flutter/material.dart';
 import 'package:car/screens/audi/Audi.dart';
 import 'screens/Rolls royes/rr_cullinan.dart';
@@ -60,6 +65,7 @@ class AppView extends StatelessWidget {
         '/lambo': (context) => lamborghini_view(),
         '/chevrolet': (context) => chevrolet_view(),
         '/dodge': (context) => dodge_view(),
+        '/toyota': (context) => toyota_view(),
         '/ford': (context) => ford_view(),
         '/rr': (context) => rr_view(),
         '/mercedes': (context) => mercedes_view(),
@@ -90,10 +96,15 @@ class AppView extends StatelessWidget {
         '/lamboA': (context) => lamborghini_aventador_view(),
         '/lamboH': (context) => lamborghini_huracan_view(),
         '/lamboU': (context) => lamborghini_urus_view(),
-
         '/cadillacC': (context) => cadillac_ct5_view(),
         '/cadillacE': (context) => cadillac_escalade_view(),
         '/cadillacX': (context) => cadillac_xt6_view(),
+        '/toyotaA': (context) => toyota_avalon_view(),
+        '/toyotaC': (context) => toyota_camry_view(),
+        '/toyotaL': (context) => toyota_landcruiser_view(),
+        '/toyotaS': (context) => toyota_supra_view(),
+        
+
 
       },
     );

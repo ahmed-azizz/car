@@ -31,7 +31,7 @@ class introduction extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
-                      'An application to know more about cars ',
+                      'An application to know more about cars',
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w700,

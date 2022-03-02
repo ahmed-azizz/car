@@ -43,6 +43,27 @@ class _first_screen_viewState extends State<first_screen_view> {
           children: <Widget>[
             InkWell(
               onTap: () {
+                Navigator.pushNamed(context, '/rr');
+              },
+              child: Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(width: 1, color: Colors.black),
+                    borderRadius: BorderRadius.circular(8),
+                    color: Colors.blue[300],
+                  ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Image.network(
+                        'https://logos-world.net/wp-content/uploads/2021/04/Rolls-Royce-Logo.png',
+                        scale: 1,
+                        fit: BoxFit.fill,
+                      ),
+                    ],
+                  )),
+            ),
+            InkWell(
+              onTap: () {
                 Navigator.pushNamed(context, '/bmw');
               },
               child: Container(
@@ -174,27 +195,6 @@ class _first_screen_viewState extends State<first_screen_view> {
             ),
             InkWell(
               onTap: () {
-                Navigator.pushNamed(context, '/kia');
-              },
-              child: Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(width: 1, color: Colors.black),
-                    borderRadius: BorderRadius.circular(8),
-                    color: Colors.blue[300],
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Image.asset(
-                        'images/kia1.png',
-                        scale: 10,
-                        fit: BoxFit.fill,
-                      ),
-                    ],
-                  )),
-            ),
-            InkWell(
-              onTap: () {
                 Navigator.pushNamed(context, '/nissan');
               },
               child: Container(
@@ -231,26 +231,6 @@ class _first_screen_viewState extends State<first_screen_view> {
                         'images/toyota1.png',
                         scale: 5,
                         fit: BoxFit.fill,
-                      ),
-                    ],
-                  )),
-            ),
-            InkWell(
-              onTap: () {
-                Navigator.pushNamed(context, '/volkswagen');
-              },
-              child: Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(width: 1, color: Colors.black),
-                    borderRadius: BorderRadius.circular(8),
-                    color: Colors.blue[300],
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Image.asset(
-                        'images/volkswagen.png',
-                        scale: 1,
                       ),
                     ],
                   )),

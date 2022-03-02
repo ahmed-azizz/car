@@ -1,16 +1,8 @@
-# car
 
-A new Flutter project.
+**CAR**
+<p>CAR application is my the newest application that created for increase your knowledge about the cars in all brands, the application is too simple and user friendly user easily can use it ,it means it is the MVP version of the application, and i try to add new features.<p>
 
-## Getting Started
+**TOOLS**
+I used the Flutter framework using Dart language and it is quite simple,
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

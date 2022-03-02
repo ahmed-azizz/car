@@ -20,7 +20,7 @@ import 'package:car/screens/ford/ford_explorer.dart';
 import 'package:car/screens/ford/ford_f150.dart';
 import 'package:car/screens/ford/ford_mustang.dart';
 import 'package:car/screens/introduction.dart';
-import 'package:car/screens/kia.dart';
+import 'package:car/screens/Rolls%20royes/rr.dart';
 import 'package:car/screens/mercedes/mercedes.dart';
 import 'package:car/screens/mercedes/mercedes_CLSclass.dart';
 import 'package:car/screens/mercedes/mercedes_Cclass.dart';
@@ -29,9 +29,12 @@ import 'package:car/screens/mercedes/mercedes_Sclass.dart';
 import 'package:car/screens/nissan.dart';
 import 'package:car/screens/toyota.dart';
 import 'package:car/screens/ford/ford.dart';
-import 'package:car/screens/volkswagen.dart';
+import 'package:car/screens/Rolls%20royes/rr.dart';
 import 'package:flutter/material.dart';
 import 'package:car/screens/audi/Audi.dart';
+import 'screens/Rolls royes/rr_cullinan.dart';
+import 'screens/Rolls royes/rr_gohst.dart';
+import 'screens/Rolls royes/rr_phantom.dart';
 import 'screens/dodge/dodge_charger.dart';
 import 'screens/dodge/dodge_durango.dart';
 
@@ -50,11 +53,10 @@ class AppView extends StatelessWidget {
         '/chevrolet': (context) => chevrolet_view(),
         '/dodge': (context) => dodge_view(),
         '/ford': (context) => ford_view(),
-        '/kia': (context) => kia_view(),
+        '/rr': (context) => rr_view(),
         '/mercedes': (context) => mercedes_view(),
         '/nissan': (context) => nissan_view(),
         '/toyota': (context) => toyota_view(),
-        '/volkswagen': (context) => volkswagen_view(),
         '/bmwm5': (context) => bmw_m5_view(),
         '/bmw760i': (context) => bmw_760i_view(),
         '/bmwx7': (context) => bmw_x7_view(),
@@ -73,9 +75,12 @@ class AppView extends StatelessWidget {
         '/dodgeCHALLENGER': (context) => dodge_challenger_view(),
         '/dodgeCHARGER': (context) => dodge_charger_view(),
         '/dodgeDURANGO': (context) => dodge_durango_view(),
-                '/fordM': (context) => ford_mustang_view(),
+        '/fordM': (context) => ford_mustang_view(),
         '/fordF': (context) => ford_f150_view(),
         '/fordE': (context) => ford_explorer_view(),
+        '/rrC': (context) => rr_cullinan_view(),
+        '/rrG': (context) => rr_gohst_view(),
+        '/rrP': (context) => rr_phantom_view(),
 
       },
     );

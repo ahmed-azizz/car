@@ -216,7 +216,7 @@ class _first_screen_viewState extends State<first_screen_view> {
             ),
             InkWell(
               onTap: () {
-                Navigator.pushNamed(context, '/nissan');
+                Navigator.pushNamed(context, '/cadillac');
               },
               child: Container(
                   decoration: BoxDecoration(
@@ -227,8 +227,8 @@ class _first_screen_viewState extends State<first_screen_view> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Image.asset(
-                        'images/nissan1.png',
+                      Image.network(
+                        'https://logos-world.net/wp-content/uploads/2021/03/Cadillac-Logo.png',
                         scale: 14,
                         fit: BoxFit.fill,
                       ),

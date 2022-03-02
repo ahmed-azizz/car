@@ -8,6 +8,9 @@ import 'package:car/screens/bmw/bmw_i4.dart';
 import 'package:car/screens/bmw/bmw_m5.dart';
 import 'package:car/screens/bmw/bmw_x7.dart';
 import 'package:car/screens/bmw/bmw_z4.dart';
+import 'package:car/screens/cadillac/cadillac_ct5.dart';
+import 'package:car/screens/cadillac/cadillac_escalade.dart';
+import 'package:car/screens/cadillac/cadillac_xt6.dart';
 import 'package:car/screens/chevrolet/chevrolet.dart';
 import 'package:car/screens/chevrolet/chevrolet_camaro.dart';
 import 'package:car/screens/chevrolet/chevrolet_corvette.dart';
@@ -19,7 +22,6 @@ import 'package:car/screens/ford/ford.dart';
 import 'package:car/screens/ford/ford_explorer.dart';
 import 'package:car/screens/ford/ford_f150.dart';
 import 'package:car/screens/ford/ford_mustang.dart';
-import 'package:car/screens/introduction.dart';
 import 'package:car/screens/Rolls%20royes/rr.dart';
 import 'package:car/screens/lamborghini/lamborghini_aventador.dart';
 import 'package:car/screens/lamborghini/lamborghini_huracan.dart';
@@ -29,8 +31,6 @@ import 'package:car/screens/mercedes/mercedes_CLSclass.dart';
 import 'package:car/screens/mercedes/mercedes_Cclass.dart';
 import 'package:car/screens/mercedes/mercedes_Gclass.dart';
 import 'package:car/screens/mercedes/mercedes_Sclass.dart';
-import 'package:car/screens/nissan/nissan.dart';
-import 'package:car/screens/toyota.dart';
 import 'package:car/screens/ford/ford.dart';
 import 'package:car/screens/Rolls%20royes/rr.dart';
 import 'package:flutter/material.dart';
@@ -38,8 +38,10 @@ import 'package:car/screens/audi/Audi.dart';
 import 'screens/Rolls royes/rr_cullinan.dart';
 import 'screens/Rolls royes/rr_gohst.dart';
 import 'screens/Rolls royes/rr_phantom.dart';
+import 'screens/cadillac/cadillac.dart';
 import 'screens/dodge/dodge_charger.dart';
 import 'screens/dodge/dodge_durango.dart';
+import 'screens/introduction.dart';
 import 'screens/lamborghini/lamborghini.dart';
 
 class AppView extends StatelessWidget {
@@ -54,14 +56,13 @@ class AppView extends StatelessWidget {
         '/first': (context) => first_screen_view(),
         '/bmw': (context) => bmw_view(),
         '/audi': (context) => audi_view(),
+        '/cadillac': (context) => cadillac_view(),
         '/lambo': (context) => lamborghini_view(),
         '/chevrolet': (context) => chevrolet_view(),
         '/dodge': (context) => dodge_view(),
         '/ford': (context) => ford_view(),
         '/rr': (context) => rr_view(),
         '/mercedes': (context) => mercedes_view(),
-        '/nissan': (context) => nissan_view(),
-        '/toyota': (context) => toyota_view(),
         '/bmwm5': (context) => bmw_m5_view(),
         '/bmw760i': (context) => bmw_760i_view(),
         '/bmwx7': (context) => bmw_x7_view(),
@@ -86,10 +87,13 @@ class AppView extends StatelessWidget {
         '/rrC': (context) => rr_cullinan_view(),
         '/rrG': (context) => rr_gohst_view(),
         '/rrP': (context) => rr_phantom_view(),
-
         '/lamboA': (context) => lamborghini_aventador_view(),
         '/lamboH': (context) => lamborghini_huracan_view(),
         '/lamboU': (context) => lamborghini_urus_view(),
+
+        '/cadillacC': (context) => cadillac_ct5_view(),
+        '/cadillacE': (context) => cadillac_escalade_view(),
+        '/cadillacX': (context) => cadillac_xt6_view(),
 
       },
     );

@@ -64,6 +64,27 @@ class _first_screen_viewState extends State<first_screen_view> {
             ),
             InkWell(
               onTap: () {
+                Navigator.pushNamed(context, '/lambo');
+              },
+              child: Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(width: 1, color: Colors.black),
+                    borderRadius: BorderRadius.circular(8),
+                    color: Colors.blue[300],
+                  ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Image.network(
+                        'https://logos-world.net/wp-content/uploads/2021/03/Lamborghini-Logo.png',
+                        scale: 2,
+                        fit: BoxFit.fill,
+                      ),
+                    ],
+                  )),
+            ),
+            InkWell(
+              onTap: () {
                 Navigator.pushNamed(context, '/bmw');
               },
               child: Container(

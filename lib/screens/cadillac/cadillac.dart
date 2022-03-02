@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class chevrolet_view extends StatelessWidget {
-  chevrolet_view({Key? key}) : super(key: key);
+class cadillac_view extends StatelessWidget {
+  cadillac_view({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     List cars = [
       InkWell(
         onTap: () {
-          Navigator.pushNamed(context, '/chevroletM');
+          Navigator.pushNamed(context, '/cadillacC');
         },
         child: Container(
           height: 50,
@@ -16,15 +16,14 @@ class chevrolet_view extends StatelessWidget {
           decoration: BoxDecoration(
             border: Border.all(width: 1, color: Colors.black),
             image: DecorationImage(
-              scale: 3,
               image: Image.network(
-                'https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2022/cars/malibu/01-images/colorizer/2022-malibu-1lt-gaz-colorizer.jpg?imwidth=960',
+                'https://www.ccarprice.com/products/Cadillac-CT5-Luxury-2021.jpg',
                 fit: BoxFit.cover,
               ).image,
             ),
           ),
           child: const Text(
-            'MALIBU',
+            'CADILLAC CT5',
             style: TextStyle(
               color: Colors.red,
               fontSize: 25,
@@ -35,7 +34,7 @@ class chevrolet_view extends StatelessWidget {
       ),
       InkWell(
         onTap: () {
-          Navigator.pushNamed(context, '/chevroletCA');
+          Navigator.pushNamed(context, '/cadillacE');
         },
         child: Container(
           height: 50,
@@ -44,13 +43,13 @@ class chevrolet_view extends StatelessWidget {
             border: Border.all(width: 1, color: Colors.black),
             image: DecorationImage(
               image: Image.network(
-                'https://immagini.alvolante.it/sites/default/files/styles/image_gallery_big/public/serie_auto_galleria/2016/08/chevrolet_camaro_ant.png?itok=S-yG-IpZ',
+                'https://www.ccarprice.com/products/Cadillac-Escalade-ESV-Luxury-2021_2.jpg',
                 fit: BoxFit.cover,
               ).image,
             ),
           ),
           child: const Text(
-            'CAMARO',
+            'CADILLAC ESCALADE',
             style: TextStyle(
               color: Colors.red,
               fontSize: 25,
@@ -61,7 +60,7 @@ class chevrolet_view extends StatelessWidget {
       ),
       InkWell(
         onTap: () {
-          Navigator.pushNamed(context, '/chevroletCO');
+          Navigator.pushNamed(context, '/cadillacX');
         },
         child: Container(
           height: 50,
@@ -70,13 +69,13 @@ class chevrolet_view extends StatelessWidget {
             border: Border.all(width: 1, color: Colors.black),
             image: DecorationImage(
               image: Image.network(
-                'https://www.chevrolet.com/content/dam/chevrolet/na/us/english/vdc-collections/2022/performance/corvette/01-images/2022-corvette-1yc67-2lt-gph-trimselector.png?imwidth=960',
+                'https://www.motortrend.com/uploads/2021/08/2022-Cadillac-XT6.png',
                 fit: BoxFit.cover,
               ).image,
             ),
           ),
           child: const Text(
-            'CORVETTE',
+            'CADILLAC XT6',
             style: TextStyle(
               color: Colors.red,
               fontSize: 25,
@@ -97,7 +96,7 @@ class chevrolet_view extends StatelessWidget {
           backgroundColor: Colors.blue[300],
           centerTitle: true,
           title: Text(
-            'CHEVROLET',
+            'CADILLAC',
             style: TextStyle(
                 color: Colors.red[700],
                 fontSize: 30,
